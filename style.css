@@ -1,0 +1,111 @@
+body{
+    background-color: hsl(165, 0%, 94%);
+    font-family: Roboto,sans-serif;
+}
+
+.navbar-brand img {
+    width: 150px;
+    margin-left: 23px;
+}
+
+.navbar {
+    height: 80px;
+    position: sticky;
+    right: 0;
+    top: 0;
+    z-index: 1030;
+}
+
+#navbarSupportedContent{
+    justify-content: flex-end
+}
+
+.upper-section {
+    background-image: url(/images/home-img.webp);
+    height: 800px;
+    background-size: cover;
+    background-position: top;
+}
+
+.grill-content{
+    width: 400px;
+}
+
+.order-at{
+    font-size: 18px;
+    color: white;
+
+}
+
+.custom-btn {
+    display: flex;
+    width: 150px;
+    height: 40px;
+
+}
+
+.video-div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.video {
+    border-radius: 20px;
+}
+
+.footer {
+    height: 70px;
+}
+
+.footer-text {
+    font-size: 14px;
+}
+
+.footer-logo {
+    width: 38px;
+    position: absolute;
+    right: 20px;
+    top: 1465px;
+}
+
+@media (max-width: 1024px){
+    .navbar-brand img {
+        width: 100px;
+        margin-left: -5.
+        px;
+    }
+
+    .navbar {
+        height: 50px;
+    }
+
+    .upper-section{
+        background-image: url(/images/bg-image.webp);
+        background-size: cover;
+        background-position: bottom;
+        height: 650px;
+    }
+    
+    .grill-content{
+        width: 200px;
+    }
+    
+    .video{
+        border-radius: 10px;
+        height: 200px;
+        width: 350px;
+    }
+
+    .footer-text{
+        font-size: 8px;
+        padding-top: 100px;
+    }
+
+    .footer-logo{
+        width: 30px;
+        right: 20px;
+        top: 990px;
+    }
+}
+
