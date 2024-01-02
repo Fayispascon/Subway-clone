@@ -21,7 +21,7 @@ body{
 }
 
 .upper-section {
-    background-image: url(images/home-img.webp);
+    background-image: url(/images/home-img.webp);
     height: 800px;
     background-size: cover;
     background-position: top;
@@ -81,7 +81,7 @@ body{
     }
 
     .upper-section{
-        background-image: url(images/bg-image.webp);
+        background-image: url(/images/bg-image.webp);
         background-size: cover;
         background-position: bottom;
         height: 650px;
